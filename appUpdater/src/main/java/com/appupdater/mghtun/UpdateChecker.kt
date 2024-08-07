@@ -12,6 +12,7 @@ import okhttp3.Response
 import java.io.IOException
 
 object UpdateChecker {
+
     private val client = OkHttpClient()
 
     fun checkForUpdate(activity: Activity, url: String, packageName: String) {
