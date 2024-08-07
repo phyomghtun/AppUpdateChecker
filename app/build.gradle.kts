@@ -12,8 +12,8 @@ android {
         applicationId = "com.appupdater.maunghtun"
         minSdk = 24
         targetSdk = 34
-        versionCode = 7
-        versionName = "1.0.7"
+        versionCode = 8
+        versionName = "1.0.8"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -33,6 +33,22 @@ android {
     }
     kotlinOptions {
         jvmTarget = "17"
+    }
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("release") {
+//            from(components["release"])
+            groupId = "com.github.phyomghtun"
+            artifactId = "AppUpdater"
+            version = "1.0.8"
+        }
+    }
+    repositories {
+        maven {
+            url = uri("https://jitpack.io")
+        }
     }
 }
 
