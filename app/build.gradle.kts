@@ -12,8 +12,8 @@ android {
         applicationId = "com.appupdater.maunghtun"
         minSdk = 24
         targetSdk = 34
-        versionCode = 8
-        versionName = "1.0.8"
+        versionCode = 9
+        versionName = "1.0.9"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -62,4 +62,5 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.2.1")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1")
     implementation(project(":appUpdater"))
+//    implementation("com.github.phyomghtun:AppUpdateChecker:1.0.8")
 }

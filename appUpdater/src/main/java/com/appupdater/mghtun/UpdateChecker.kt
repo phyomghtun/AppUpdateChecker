@@ -11,7 +11,7 @@ import okhttp3.Request
 import okhttp3.Response
 import java.io.IOException
 
-object UpdateChecker {
+class UpdateChecker {
 
     private val client = OkHttpClient()
 

@@ -9,6 +9,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        UpdateChecker.checkForUpdate(this,"https://raw.githubusercontent.com/mtapplication/temp_data/main/update.json",applicationContext.packageName)
+        UpdateChecker().checkForUpdate(this,"https://raw.githubusercontent.com/mtapplication/temp_data/main/update.json",applicationContext.packageName)
     }
 }
