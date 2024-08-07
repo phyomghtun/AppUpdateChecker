@@ -1,5 +1,7 @@
 # AppUpdater
 
+[![](https://jitpack.io/v/phyomghtun/AppUpdateChecker.svg)](https://jitpack.io/#phyomghtun/AppUpdateChecker)
+
 **AppUpdater** is a library designed to help Android developers easily check for app updates and notify users when a new version is available. It simplifies the process of managing app updates, ensuring your users are always on the latest version.
 
 ## Features
@@ -33,4 +35,3 @@ dependencies {
 	        implementation 'com.github.phyomghtun:AppUpdateChecker:1.0.0'
 	}
 ```
-[![](https://jitpack.io/v/phyomghtun/AppUpdateChecker.svg)](https://jitpack.io/#phyomghtun/AppUpdateChecker)
